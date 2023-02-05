@@ -1,0 +1,212 @@
+:root {
+  /* fonts */
+  --main-font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  --second-font-family: 'Raleway', Arial, Helvetica, sans-serif;
+
+  /* colors */
+  --body-background: #e5e5e5;
+  --white: #fff;
+  --iris: #4d5ae5;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
+}
+
+.body {
+  font-family: var(--main-font-family);
+  color: var(--slate);
+  background: var(--body-background);
+}
+
+.header {
+  background: var(--white);
+}
+
+.header-logo {
+  font-family: var(--second-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-left {
+  color: var(--iris);
+}
+
+.header-logo-right {
+  color: var(--navy-blue);
+}
+
+.header-nav-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-nav-list-link:hover,
+.header-nav-list-link:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address .contact-information a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  text-decoration: none;
+}
+
+.address .contact-information a:hover,
+.address .contact-information a:focus {
+  color: var(--ocean);
+}
+
+.hero-image {
+  background: var(--navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button :focus {
+  background: var(--ocean);
+}
+
+.our-advantages .list h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.our-advantages .list p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.examples-of-work .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.our-team {
+  background: var(--cloud);
+}
+
+.our-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.our-team .list {
+  background: var(--white);
+}
+
+.our-team .name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.our-team .profession {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background: var(--navy-blue);
+}
+
+.footer-logo {
+  font-family: var(--second-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo-left {
+  color: var(--iris);
+}
+
+.footer-logo-right {
+  color: var(--cloud);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflower);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background: var(--cloud);
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white);
+  background: var(--ocean);
+}
+
+.projects-list {
+  background: var(--white);
+}
+
+.projects-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
